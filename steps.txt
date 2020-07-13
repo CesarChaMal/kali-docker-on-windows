@@ -3,6 +3,7 @@ docker login
 docker pull kalilinux/kali-rolling
 winpty docker run -it kalilinux/kali-rolling ls -ltra
 winpty docker run -it kalilinux/kali-rolling bash
+winpty docker run -it cesarchamal/kalilinux:first bash
 winpty docker run -it kalilinux/kali-rolling //bin//bash
 winpty docker run -it kalilinux/kali-rolling "//bin//bash"
 winpty docker run -it kalilinux/kali-rolling bash -c "ls -ltra /etc/init.d"
